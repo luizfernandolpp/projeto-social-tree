@@ -63,7 +63,7 @@ main section{
     border: 2px solid var(--paynes-gray);
     border-radius: 5px;
     margin: 25px auto;
-    max-width: 30vw;
+    max-width: 300px;
     box-shadow: 1px 1px 5px 0px var(--paynes-gray);
     
 }
