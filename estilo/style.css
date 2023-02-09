@@ -34,7 +34,7 @@ header{
 
 section#foto{
     margin:auto;
-    width: 2100px;
+    width: 200px;
     height: 266px;
     border-top-left-radius: 100px 133px;
     border-top-right-radius: 100px 133px;
@@ -44,7 +44,7 @@ section#foto{
     box-shadow: 1px 1px 10px 0px var(--paynes-gray);
 
 
-    background-image: url('../imagens/img-perfil-pq.png');
+    background-image: url('../imagens/img-perfil.png');
     background-position: center center;
     background-repeat: no-repeat;
     
