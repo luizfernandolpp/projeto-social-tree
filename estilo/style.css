@@ -27,23 +27,27 @@ header{
     height: 300px;
     margin-bottom: 20px;
     padding-top: 70px;
+    padding-bottom: 50px;
 
 }
 
 
 section#foto{
     margin:auto;
-    width: 217px;
-    height: 217px;
-    border-radius: 150px;
+    width: 200px;
+    height: 266px;
+    border-top-left-radius: 100px 133px;
+    border-top-right-radius: 100px 133px;
+    border-bottom-left-radius: 100px 133px;
+    border-bottom-right-radius: 100px 133px;
     border: 1px solid var(--paynes-gray);
     box-shadow: 1px 1px 10px 0px var(--paynes-gray);
 
 
     background-image: url('../imagens/img-perfil-pq.png');
     background-position: center center;
-    background-size: contain;
     background-repeat: no-repeat;
+    
 
     
 }
