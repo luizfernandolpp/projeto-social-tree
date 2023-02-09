@@ -67,7 +67,7 @@ main{
 main section{
     text-align: center;
     border: 2px solid var(--paynes-gray);
-    border-radius: 4px;
+    border-radius: 5px;
     margin: 25px auto;
     max-width: 30vw;
     box-shadow: 1px 1px 5px 0px var(--paynes-gray);
