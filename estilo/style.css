@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    /* CSS HEX */
+--powder-blue: #9ab5d2ff;
+--desert-sand: #f6d8beff;
+--silver: #cbcbc9ff;
+--paynes-gray: #3a606eff;
+
+--font-padrao: 'Poppins', sans-serif;
+}
+ 
+
+body{
+
+    height: 100vh;
+    background-image: linear-gradient(to bottom, var(--powder-blue), var(--desert-sand), var(--silver));
+    font-family: var(--font-padrao);
+    color: var(--paynes-gray);
+    
+    
+}
+
+header{
+    height: 300px;
+    margin-bottom: 20px;
+    padding-top: 70px;
+
+}
+
+
+section#foto{
+    margin:auto;
+    width: 217px;
+    height: 217px;
+    border-radius: 150px;
+    border: 1px solid var(--paynes-gray);
+    box-shadow: 1px 1px 10px 0px var(--paynes-gray);
+
+
+    background-image: url('../imagens/img-perfil-pq.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    
+}
+
+header h1{
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 0.5px 0.5px 2px var(--paynes-gray);
+    
+}
+
+main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main section{
+    text-align: center;
+    border: 2px solid var(--paynes-gray);
+    margin: 25px auto;
+    max-width: 30vw;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.11);
+    
+}
+
+main h2{
+    margin: 7px;
+    font-size: 1em;
+    
+}
+
+
+main a{
+    text-decoration: none;
+    color: var(--paynes-gray);
+    
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main a:active{
+    text-decoration: none;
+    color: var(--powder-blue);
+}
+
+footer{
+    padding: 20px 0px;
+}
+
+
+footer > section{
+    text-align: center;
+    padding: 1vw;
+    width: 90vw;
+}
+
+
+footer img{
+    position: relative;
+    left: 3vw;
+    padding: 0px 0.8vw;
+}
