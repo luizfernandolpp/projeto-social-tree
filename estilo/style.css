@@ -43,14 +43,8 @@ section#foto{
     border: 1px solid var(--paynes-gray);
     box-shadow: 1px 1px 10px 0px var(--paynes-gray);
 
-
-    background-image: url('../imagens/img-perfil.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    
-
-    
 }
+
 
 header h1{
     text-align: center;
