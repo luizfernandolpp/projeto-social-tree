@@ -70,7 +70,7 @@ main section{
     border-radius: 4px;
     margin: 25px auto;
     max-width: 30vw;
-    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.11);
+    box-shadow: 1px 1px 5px 0px var(--paynes-gray);
     
 }
 
