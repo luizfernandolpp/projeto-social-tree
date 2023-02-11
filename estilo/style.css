@@ -34,12 +34,9 @@ header{
 
 section#foto{
     margin:auto;
-    width: 200px;
-    height: 266px;
-    border-top-left-radius: 100px 133px;
-    border-top-right-radius: 100px 133px;
-    border-bottom-left-radius: 100px 133px;
-    border-bottom-right-radius: 100px 133px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
     border: 1px solid var(--paynes-gray);
     box-shadow: 1px 1px 10px 0px var(--paynes-gray);
 
